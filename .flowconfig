@@ -1,0 +1,14 @@
+[ignore]
+
+[include]
+
+[libs]
+flow-typed
+
+[lints]
+
+[options]
+emoji=true
+include_warnings=true
+
+[strict]
