@@ -15,6 +15,7 @@ import JavascriptIcon from './javascript';
 import XamarinIcon from './xamarin';
 import DotNetIcon from './dotnet';
 import AtlassianIcon from './atlassian';
+import PythonIcon from "./python";
 
 const useStyles = makeStyles(theme => ({
   icon: {
@@ -38,6 +39,7 @@ const select = (icon, classes) => {
     case 'js':        return <JavascriptIcon className={classes.icon}/>        
     case 'node':      return <NodeJsIcon className={classes.icon}/>;
     case 'nosql':     return <Storage className={classes.icon}/>;
+    case 'python':    return <PythonIcon className={classes.icon}/>;
     case 'react':     return <ReactIcon className={classes.icon}/>
     case 'xamarin':   return <XamarinIcon className={classes.icon}/>
 
